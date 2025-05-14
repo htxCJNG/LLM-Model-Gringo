@@ -24,6 +24,7 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: #f9f9f9;
 }
 
 input[type="text"] {
@@ -49,4 +50,13 @@ button:disabled {
 
 input[type="file"] {
   display: none;
+}
+
+#loading {
+  text-align: center;
+}
+
+#userInput:disabled, button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
